@@ -1,0 +1,2 @@
+execute unless score $dig ostr.global matches 3.. run data modify block ~2 ~ ~ Command set value "data modify block ~1 ~ ~ Command set string block ~-1 ~ ~ LastOutput 89 162"
+execute if score $dig ostr.global matches 3.. run function ostr:concat/bin/l1n0
