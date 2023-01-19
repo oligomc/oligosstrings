@@ -23,14 +23,12 @@ To concatenate the strings `"hello "` and `"world"`, run the following code in a
 ```
 data modify storage ostr:io in set value ["hello ", "world"]
 function ostr:concat
-data get storage ostr:io out 
 ## returns "hello world"
 ```
 To parse the string `hello` into an array of characters, run the following code in a function file or two separate command blocks:
 ```
 data modify storage ostr:io in set value "hello"
 function ostr:parse
-data get storage ostr:io out
 ## returns ["h", "e", "l", "l", "o"]
 ```
 
